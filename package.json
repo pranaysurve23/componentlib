@@ -1,8 +1,6 @@
 {
-  "name": "component-library-test2",
-  "version": "0.0.1",
-  
-  "private": true,
+  "name": "@pranaysurve23/componentlib",
+  "version": "1.1.6",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -43,18 +41,21 @@
     ]
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^23.0.3",
+    "@rollup/plugin-commonjs": "^23.0.7",
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-typescript": "^10.0.0",
-    "rollup": "^3.5.0",
-    "rollup-plugin-dts": "^5.0.0",
+    "@rollup/plugin-typescript": "^10.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rollup": "^3.9.0",
+    "rollup-plugin-dts": "^5.1.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/pranaysurve23"
+  }
 }
